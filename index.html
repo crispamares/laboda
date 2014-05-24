@@ -1,113 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <head>
+        <meta charset="utf-8">
+        <title>La boda</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <link rel="shortcut icon" href="flat-ui/images/favicon.ico">
+        <link rel="stylesheet" href="flat-ui/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="flat-ui/css/flat-ui.css">
+        <!-- Using only with Flat-UI (free)-->
+        <link rel="stylesheet" href="common-files/css/icon-font.css">
+        <!-- end -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-    <title>La boda de Juan y Clara</title>
+    <body>
+        <div class="page-wrapper">
+            <!-- header-10 -->
+            <header class="header-10">
+                <div class="container">
+                    <div class="navbar col-sm-12" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle"></button>
+                            <a class="brand" href="#">La boda </a>
+                         </div>
+                        <div class="collapse navbar-collapse pull-right">
+                            <ul class="nav pull-left">
+                                <li class="active"><a href="#">Inicio</a></li>
+                                <li><a href="#" onclick="$.scrollTo('#plan', 1000)">El plan</a></li>
+                                <li><a href="#" onclick="$.scrollTo('#coche', 1000)">En coche</a></li>
+                                <li><a href="#" onclick="$.scrollTo('#bus', 1000)">En autobús</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="header-10-sub v-center bg-midnight-blue">
+                <div class="background">
+                    &nbsp;
+                </div>
+                <div>
+                    <div class="container">
+                        <div class="hero-unit">
+                            <p>
+			      Después de 10 años juntos ¡Nos casamos! :D
+			    </p>
+			    <p>
+			      Si estás aquí probablemente nos veremos el
+                            </p>
+                            <p>
+                              <h1>7 de junio de 2014</h1>
+                            </p>
 
-    <!-- Bootstrap core CSS -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+                        </div>
+                    </div>
+                </div>
+                <a class="control-btn fui-arrow-down" href="#"> </a>
+            </section>
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+            <!-- content-7  -->
+            <section class="content-7 v-center" id="plan">
+                <div>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+                    <div class="container">
+                        <h3>El plan</h3>
 
-    <!-- Custom styles for this template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-<!-- NAVBAR
-================================================== -->
-  <body>
+                        <div class="row v-center">
+                            <div class="col-sm-3">
+                                <div>
+                                  <div>
+                                    Toda la boda será en el jardín de
+                                    la finca. <strong>Al aire
+                                    libre.</strong>
+                                  </div>
+				  <div>
+				    Ahora bien, si hace
+                                    frío cenaremos en la carpa para
+                                    estar más cómodos.
+				  </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="col-sm-offset-1">
 
-<!--
-    <div class="navbar-wrapper">
-      <div class="container">
+				  <ul class="list-group">
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Ceremonia</h4>
+				      <p class="list-group-item-text text-right">19:00 horas</p>
+				    </li>
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Cóctel</h4>
+				      <p class="list-group-item-text text-right">20:00 horas</p>
+				    </li>
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Banquete</h4>
+				      <p class="list-group-item-text text-right">21:00 horas</p>
+				    </li>
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Fiesta :)</h4>
+				      <p class="list-group-item-text text-right">12:00 horas</p>
+				    </li>
+				  </ul>
+				  
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <div class="col-sm-offset-2">
+                                    <h6>Necesario traer</h6>
+				    <p>Una buena sonrisa para las fotos.</p>
+                                    <p>Y otra aún más grande para los novios.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#">Project name</a>
-            </div>
-            <div class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+            <!-- content-23  -->
+            <section class="content-23 v-center bg-midnight-blue custom-bg">
+                <div>
+                    <div class="container">
+                        <div class="hero-unit hero-unit-bordered">
+                            <h1>Finca La Kaprichosa</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="control-btn fui-arrow-down" href="#"> </a>
+            </section>
 
-      </div>
-    </div>
+            <!-- content-8  -->
+            <section class="content-8 v-center" id="coche">
+                <div>
+                    <div class="container">
+		      <div class="row">
+                        <div class="col-sm-7 col-sm-offset-2">
+			  <a href="img/mapa-mio.svg"> 
+			    <img src="img/mapa-mio.svg" with="300px" alt="mapa para llegar en coche"/>
+			  </a>
+			  <h3>Para llegar en coche</h3>
+			</div>
+		      </div>
+		      
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                              <p>La entrada a la finca está a medio camino entre San Agustín de Guadalix y Colmenar Viejo. 
+				En la  <strong>carretera M-104 </strong>.
+                                </p>
+                              <p>Creemos que es más fácil entrar <strong>desde Colmenar</strong>. <strong>Pasado</strong> 
+				el hito del <strong>kilómetro 6</strong>, 
+				es la primera salida a la  <strong>derecha </strong>. Ojo, que es una salida de tierra 
+				bastante cerrada.</p>
+                                <a class="btn btn-large btn-clear" href="https://www.google.com/maps/place/40%C2%B041%2704.4%22N+3%C2%B039%2739.2%22W/@40.5442854,-3.6243081,11z/data=!4m2!3m1!1s0x0:0x0">Localizar en Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- content-23  -->
+<!--            <section class="content-23  v-center bg-midnight-green">
+                <div id="bgVideo" class="background"></div>
+                <div>
+                    <div class="container">
+                        <div class="hero-unit">
+                            <h1>Find a perfect suit for
+                            <br class="hidden-phone">
+                            your startup</h1>
+                        </div>
+                    </div>
+                </div>
+                <a class="control-btn fui-arrow-down" href="#"> </a>
+            </section>
 -->
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="item active">
-          <img src="img/exterior.jpg" alt="exterior">
-          <div class="container">
-            <div class="carousel-caption">
-            </div>
-          </div>
+            <!-- content-23  -->
+            <section class="content-23 v-center bg-midnight-blue custom-bg2">
+                <div>
+                    <div class="container">
+                    </div>
+                </div>
+                <a class="control-btn fui-arrow-down" href="#"> </a>
+            </section>
+
+
+            <!-- content-7  -->
+            <section class="content-7 v-center" id="bus">
+                <div>
+                  <h3>Para llegar en autobús</h3>
+                    <div class="container">
+		      
+                        <div class="row">
+                            <div class="col-sm-5">
+				  <ul class="list-group">
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Salida desde Cibeles</h4>
+				      <p class="list-group-item-text text-right">18:00 horas</p>
+				    </li>
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Primera vuelta</h4>
+				      <p class="list-group-item-text text-right">3:00 horas</p>
+				    </li>
+				    <li class="list-group-item">
+				      <h4 class="list-group-item-heading">Último tren</h4>
+				      <p class="list-group-item-text text-right">6:30 horas</p>
+				    </li>
+				  </ul>
+                            </div>
+                            <div class="col-sm-5 col-sm-offset-2">
+                              <p>El autobús saldrá de la <strong>plaza de Cibeles</strong>, concretamente de la 
+				<strong>parada del autobús que va hacia el aeropuerto</strong>. 
+				Está situada a los pies del edificio de correos.
+                              </p>
+                              <p>
+				Pensad que la salida es a las <strong>17:50</strong>... que el autobús no espera 
+				y no queréis coger un taxi. Creednos ;)
+			      </p>
+                            </div>
+                        </div>
+
+                        <div class="row ">
+                            <div class="col-sm-4 col-sm-offset-4">
+                              <a class="btn btn-large btn-clear btn-block" href="https://www.google.com/maps/place/P%C2%BA+Prado+-+Pza.+de+Cibeles/@40.4189969,-3.6930203,19z/data=!4m7!1m4!3m3!1s0xd422884b69894d3:0x42597193d8bd3e47!2sPlaza+Cibeles!3b1!3m1!1s0x0:0xf2cd7387a762739e">Ver parada en Google Maps</a>
+                            </div>
+			</div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- footer-3 -->
+            <footer class="footer-3">
+                <div class="container">
+                    <div class="row v-center">
+                        <div class="col-sm-5">
+                            <a class="brand" href="#">La boda de Clara y Juan</a>
+                        </div>
+                        <div class="col-sm-5 col-sm-offset-2">
+                            <div class="additional-links">
+			      <p>Llamadnos o escribidnos si tenéis cualquier duda. <br/>
+                              &nbsp;&nbsp;&nbsp; Clara - 637878459  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; Juan - 608029224 </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
-        <div class="item">
-          <img alt="Second slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>7 de junio de 2014.</h1>
-              <p>Nos veremos allí</p>
-              <!--<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>-->
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-    </div><!-- /.carousel -->
 
-
-   </div><!-- /.container -->
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-  </body>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="common-files/js/jquery-1.10.2.min.js"></script>
+        <script src="flat-ui/js/bootstrap.min.js"></script>
+        <script src="common-files/js/modernizr.custom.js"></script>
+        <script src="common-files/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="common-files/js/jquery.parallax.min.js"></script>
+        <script src="common-files/js/startup-kit.js"></script>
+        <script src="js/jquery.backgroundvideo.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
